@@ -1,0 +1,58 @@
+.wrapper-login-page {
+    background-image: url(https://www.themebeta.com/media/cache/728/files/chrome/images/201607/09/892d3ff88fe8ecd45fc7e9880dd78b52.jpeg);
+    .wrapper-login {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .login {
+            height: 50vh;
+            padding: 50px 60px 25px 60px;
+            width: 30vw;
+            border-radius: 5px;
+            border: 1px solid #b2afab;
+            background-color: #f9dcb8;
+            .input {
+                display: grid;
+    
+                > input {
+                    border: 1px solid #b2afab;
+                    border-radius: 5px;
+                    padding: 20px;
+                    outline: none;
+                    &:first-child {
+                        margin-bottom: 25px;
+                    }
+                }
+                ::-webkit-input-placeholder {
+                    color: #b2afab;
+                }
+            
+            }
+            .password-infos {
+                color: #b2afab;
+            }
+            .password-forgoten {
+                color: #29b3e5;
+                display: flex;
+                justify-content: center;
+                position: relative;
+                margin-top: 80px;
+                cursor: pointer;
+            }
+    
+            // .button {
+            //     display: flex;
+            //     justify-content: center;
+            //     .validate {
+            //         position: relative;
+            //         padding: 20px;
+            //         cursor: pointer;
+            //         border-radius: 5px;
+            //         width: calc(100% - 200px);
+            //         background-color: #aee5f9;
+            //     }
+            // }
+        }
+    }
+}

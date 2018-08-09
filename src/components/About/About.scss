@@ -1,0 +1,32 @@
+.wrapper-about-page {
+    display: flex;
+    .wrapper-about {
+        border: 1px solid #b2afab;
+        border-radius: 5px;
+        text-align: center;
+        padding: 30px;
+        .about-and-img {
+            display: flex;
+            justify-content: space-between;
+            margin-left: 50%;
+            .about {
+
+            }
+            .profil-img {
+                > img {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    cursor: pointer;
+                }
+            }
+        }
+        .about-text {
+            padding: 50px;
+        }
+    }
+    .go-back {
+        position: fixed;
+        bottom: 50px;
+    }
+}

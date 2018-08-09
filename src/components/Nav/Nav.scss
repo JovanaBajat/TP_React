@@ -1,0 +1,17 @@
+.wrapper {
+    height: 95vh;
+    max-width: 100px;
+    background-color: #f9dcb8;
+    border-radius: 5px;
+    .items {
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .menu {
+            cursor: pointer;
+            padding:15px 20px;
+            text-decoration: none;
+        }
+    }
+}

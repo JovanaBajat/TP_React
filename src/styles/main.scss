@@ -1,0 +1,66 @@
+// $break-phone   : 480px;
+// $break-tablet  : 770px;
+// $break-desktop : 992px;
+// $break-large   : 1200px;
+
+
+// $responsive-large:  1440px;
+// $responsive-med: 1024px;
+// $responsive-small:  768px;
+// $responsive-mobile: 320px;
+
+// @mixin responsive($size) {
+//   @if $size == mobile { @media all and (max-width: $responsive-small) { @content; } }
+//   @else if $size == small { @media all and (max-width: $responsive-med) { @content; } }
+//   @else if $size == med { @media all and (max-width: $responsive-large) { @content; } }
+//   @else if $size == large { @media all and (min-width: $responsive-large) { @content; } }
+// }
+
+
+
+// NEW MIXINS
+
+// @mixin title {
+//   font-family: 'IntroBold';
+//   font-size: 15px;
+//   text-align: left;
+//   color: $violetZest;
+// }
+
+// @mixin small_title {
+//   font-family: 'IntroBold';
+//   font-size: 13px;
+//   text-align: left;
+//   color: $violetZest;
+// }
+
+// @mixin content {
+//   font-family: 'IntroBook';
+//   font-size: 15px;
+//   text-align: left;
+//   color: $violetZest;
+// }
+
+// @mixin small_content {
+//   font-family: 'IntroBook';
+//   font-size: 13px;
+//   text-align: left;
+//   color: $violetZest;
+// }
+
+// @mixin label {
+//   font-family: 'IntroBook';
+//   font-size: 13px;
+//   text-align: left;
+//   color: $bleuTeam;
+// }
+
+@mixin link {
+//   font-family: 'IntroBook';
+  font-size: 13px;
+  text-align: left;
+  color: #1b96e0;
+  cursor: pointer;
+}
+
+
